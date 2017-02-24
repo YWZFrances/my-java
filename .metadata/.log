@@ -1,0 +1,989 @@
+!SESSION 2017-02-23 21:39:23.392 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2017-02-23 21:40:00.424
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-02-23 21:40:00.424
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e89fb20,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c5f955,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2017-02-23 21:40:08.690
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.674
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.705
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.752
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.799
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.830
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.861
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.893
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.924
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:17.986
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:18.049
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-23 21:40:18.080
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-23 21:40:20.377
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-23 21:40:20.377
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2017-02-23 21:40:20.377
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-23 21:40:20.377
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-23 21:40:20.377
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY com.genuitec.eclipse.core 1 0 2017-02-23 21:45:08.717
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:22.965
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:34.581
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:34.755
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:34.910
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:35.113
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:35.272
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:35.391
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:35.543
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:35.657
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:35.855
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:36.025
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:36.202
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:36.439
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:36.814
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:36.946
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.067
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.175
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.279
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.447
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.551
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.648
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.749
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.855
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:37.979
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:38.105
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:38.264
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:38.409
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:38.556
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:38.690
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:38.809
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:38.955
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.097
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.236
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.362
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.465
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.596
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.695
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.788
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:39.909
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.037
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.147
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.246
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.353
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.448
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.540
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.646
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.763
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.863
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:40.980
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.106
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.227
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.335
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.473
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.600
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.698
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.806
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:41.938
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.072
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.184
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.287
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.398
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.499
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.596
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.713
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.811
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:42.902
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.027
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.162
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.305
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.481
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.603
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.696
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.803
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.904
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:43.988
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:44.077
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:44.165
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:44.251
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:45.017
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:46.796
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:47.578
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:49.345
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:50.144
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:57.146
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:46:58.032
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-23 21:47:01.301
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-23 21:47:01.302
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\老古董'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:02.265
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:03.934
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:05.538
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:06.973
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:07.596
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:08.218
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:08.835
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:09.942
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:10.628
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:11.293
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:15.963
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:16.724
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:28.652
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:35.768
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:38.313
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:39.286
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:41.808
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:43.770
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:44.653
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:46.753
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:49.780
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:50.706
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:51.714
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:54.878
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:56.792
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:57.629
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:58.418
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:47:59.183
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:01.073
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:02.807
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:03.776
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:06.073
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:07.039
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:08.130
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:09.020
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:17.077
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:21.114
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:22.084
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:23.118
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:24.600
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:25.607
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:27.518
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:28.509
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:31.982
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:34.419
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:57.520
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:48:58.338
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:00.181
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:01.741
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:02.543
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:03.323
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:04.096
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:05.578
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:07.298
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:10.040
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:13.688
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:14.664
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2017-02-23 21:49:22.566
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: The following artifacts could not be resolved: junit:junit:jar:3.8.1, org.codehaus.plexus:plexus-utils:jar:2.0.5: Failure to transfer junit:junit:jar:3.8.1 from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact junit:junit:jar:3.8.1 from/to central (http://repo.maven.apache.org/maven2): No response received after 60000
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-02-23 21:59:37.691
+!MESSAGE Error disposing widget for : org.eclipse.e4.ui.model.application.ui.menu.impl.MenuImpl null
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4378)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.graphics.GC.setForeground(GC.java:4427)
+	at org.eclipse.swt.custom.CTabFolderRenderer.drawBackground(CTabFolderRenderer.java:701)
+	at org.eclipse.swt.custom.CTabFolderRenderer.drawBackground(CTabFolderRenderer.java:628)
+	at org.eclipse.swt.custom.CTabFolder.updateBkImages(CTabFolder.java:3772)
+	at org.eclipse.swt.custom.CTabFolder.setButtonBounds(CTabFolder.java:2509)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3674)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3609)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2012)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:286)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.sendResize(Control.java:2951)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:978)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1027)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3105)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3101)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3168)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:313)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:301)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:301)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:168)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1291)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:982)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1027)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3105)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3101)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4686)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5491)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4699)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1461)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3144)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1021)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3105)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3101)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3168)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:120)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4686)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5491)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4699)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1461)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3144)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1021)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3105)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3101)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3168)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:313)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:301)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:168)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4686)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5491)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4699)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1461)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3144)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1021)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3105)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3101)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4686)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5491)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4699)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4990)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:951)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:917)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1128)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1705)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:463)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1811)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4686)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4990)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5491)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:469)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4699)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.SetMenu(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setMenuBar(Decorations.java:1175)
+	at org.eclipse.swt.widgets.Menu.releaseParent(Menu.java:1187)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:820)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:450)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:152)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:899)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:828)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:823)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:808)
+	at org.eclipse.ui.internal.WorkbenchWindow$1.handleEvent(WorkbenchWindow.java:298)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:248)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:129)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer$1.widgetDisposed(SWTPartRenderer.java:117)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:812)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:450)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:448)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3809)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3290)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:170)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4344)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3303)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4706)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.preWindowShellClose(IDEWorkbenchWindowAdvisor.java:171)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:474)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$12.shellClosed(WBWRenderer.java:612)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1697)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4613)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4706)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4706)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at com.genuitec.pulse.client.deliverypackage.runtime.ui.jobs.OfferAbstractUpdatesJob.offerWorkspaceUpdates(Unknown Source)
+	at com.genuitec.pulse.client.deliverypackage.runtime.ui.jobs.OfferNotificationBasedUpdatesJob.handleUpdates(Unknown Source)
+	at com.genuitec.pulse.client.deliverypackage.runtime.ui.jobs.OfferAbstractUpdatesJob.runSafelyInUIThread(Unknown Source)
+	at com.genuitec.pulse.client.deliverypackage.runtime.ui.jobs.SafeUIJob.runInUIThread(Unknown Source)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.genuitec.pulse.eclipse.launcher.Main.main(Main.java:110)
+!SESSION 2017-02-24 09:14:46.571 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-02-24 09:15:19.139
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2017-02-24 09:15:24.627
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-02-24 09:15:24.627
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14b15573,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@660fba2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2017-02-24 09:15:50.420
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-24 09:15:51.015
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-24 09:15:51.016
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\老古董'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.056
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.078
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.082
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.091
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.097
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.102
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.112
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.116
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.125
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.131
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 09:16:03.136
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 09:16:07.327
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 09:16:07.327
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2017-02-24 09:16:07.327
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 09:16:07.327
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 09:16:07.327
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY com.genuitec.eclipse.core 1 0 2017-02-24 09:20:50.398
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-24 09:27:58.294
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2: C:\Users\老古董\.m2\repository\.cache\m2e\1.4.0\26522e0d83a422eed93329ece7565cfc\nexus-maven-repository-index.zip (系统找不到指定的文件。)
+!SESSION 2017-02-24 13:53:12.672 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-02-24 13:54:05.540
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2017-02-24 13:54:14.145
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-02-24 13:54:14.145
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20cedb25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c956af6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-24 13:54:30.722
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2: C:\Users\老古董\.m2\repository\.cache\m2e\1.4.0\26522e0d83a422eed93329ece7565cfc\full\_3y.cfs (系统找不到指定的文件。)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2017-02-24 13:55:07.360
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-24 13:55:07.680
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-24 13:55:07.681
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\老古董'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.876
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.892
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.908
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.908
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.908
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.923
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.939
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.939
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.955
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.955
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2017-02-24 13:55:17.970
+!MESSAGE Installed snippet library: F:\myeclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 13:55:21.239
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 13:55:21.239
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2017-02-24 13:55:21.239
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 13:55:21.239
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2017-02-24 13:55:21.239
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY com.genuitec.eclipse.core 1 0 2017-02-24 14:00:07.222
+!MESSAGE Unable to locate .myeclipse.properties file

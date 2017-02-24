@@ -1,0 +1,21 @@
+package java01;
+import java.util.Scanner;
+
+public class 用户自己输入scanner {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("请输入考试成绩信息:");
+		int score = input.nextInt();
+		int count = 0;
+		System.out.println(score);
+		for(int i=0;i<60;i++){
+			score++;
+			count++;
+			if(score>=60){
+				break;
+			}
+		}
+		System.out.println(score);
+		System.out.println(count);
+	}
+}
